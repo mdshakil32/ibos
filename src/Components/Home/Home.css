@@ -1,0 +1,142 @@
+.box {
+  width: 1134px;
+  min-height: 742px;
+  margin: 70px auto;
+  border: 1px solid #c1c9d2;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.308);
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 4px;
+  position: relative;
+}
+.box-top {
+  display: flex;
+  justify-content: space-between;
+}
+.box-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+.cross {
+  cursor: pointer;
+}
+.four-steps {
+  display: flex;
+}
+.job-apply-subtitle {
+  margin-left: 10px;
+}
+.additional-info-title {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 27px;
+}
+.dot {
+  margin-left: 5px;
+  margin-bottom: 5px;
+  letter-spacing: 0.3rem;
+  color: #c4c4c4;
+}
+.plus-btn {
+  color: #34a853;
+  font-size: 50px;
+  box-shadow: 0px 24px 50px rgba(55, 65, 81, 0.25);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.form-wrapper form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.form {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.checkbox {
+  margin-right: 16px;
+  height: 24px;
+  width: 24px;
+}
+
+.form-box {
+  display: flex;
+  align-items: center;
+  gap: 0 30px;
+  /* width: 754px; */
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.12),
+    0px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 16px;
+  color: #666666;
+}
+.input-field input {
+  width: 455px;
+  padding: 8px 16px;
+  border: none;
+  background-color: rgba(33, 33, 33, 0.04);
+  outline: none;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+  border-radius: 4px 4px 0px 0px;
+  margin-right: 55px;
+}
+.input-field input:focus {
+  border-bottom: 2px solid #34a853;
+}
+
+.dropdown,
+.file,
+.delete {
+  font-size: 20px;
+  cursor: pointer;
+}
+.file,
+.delete {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown-text {
+  font-size: 16px;
+  margin: 0 10px;
+}
+.file:hover,
+.delete:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.delete {
+  position: relative;
+  margin-right: 10px;
+}
+
+.delete .tooltiptext {
+  visibility: hidden;
+  width: 60px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 4px 12px;
+  position: absolute;
+  /* top: 20px; */
+  z-index: 1;
+  top: 100%;
+  left: 100%;
+  margin-left: -60px;
+}
+
+.delete:hover .tooltiptext {
+  visibility: visible;
+}

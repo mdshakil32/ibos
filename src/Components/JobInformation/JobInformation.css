@@ -1,0 +1,20 @@
+.info-container {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px;
+  gap: 0 16px;
+  border-radius: 4px;
+}
+.single-info p {
+  padding: 8px 20px;
+  border-radius: 30px;
+  font-size: 14px;
+  background-color: #eeeeee;
+  border: 1px solid #bcbcbc;
+}
+.single-info p span {
+  margin-right: 10px;
+  color: #5f5f5f;
+}

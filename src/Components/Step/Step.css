@@ -1,0 +1,27 @@
+.green-border {
+  border-top: 5px solid #34a853;
+}
+.yellow-border {
+  border-top: 5px solid #fcbd06;
+}
+.gray-border {
+  border-top: 5px solid #c1c9d2;
+}
+.green-color {
+  color: #34a853;
+}
+.yellow-color {
+  color: #fcbd06;
+}
+.gray-color {
+  color: #00000040;
+}
+
+.step {
+  width: 268px;
+  margin-right: 5px;
+}
+.step p {
+  font-size: 14px;
+  font-weight: 500;
+}

@@ -1,0 +1,38 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 1134px;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 0;
+  margin-top: 50px;
+}
+.cancel,
+.prev,
+.next {
+  padding: 12px 20px;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+.prev,
+.next {
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.prev {
+  margin-right: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+}
+.next {
+  background-color: #34a853;
+  color: white;
+  border: none;
+}
+.cancel {
+  background-color: #f8f8f8;
+  border: none;
+}
